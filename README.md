@@ -1,7 +1,7 @@
 ## Data Mart Tables Data Type Validation
 
 ### Overview
-This project is a Data Engineering solution implemented in Mage.ai for validating the data types of columns in PostgreSQL tables within a Data Mart. It ensures that data stored in the tables conforms to the expected data types, enhancing data integrity and reliability. This validation is crucial for maintaining high-quality data, which is essential for accurate data analysis and reporting.
+This project is a Data Engineering solution implemented in Mage.ai locally for validating the data types of columns in PostgreSQL tables within a Data Mart. It ensures that data stored in the tables conforms to the expected data types, enhancing data integrity and reliability. This validation is crucial for maintaining high-quality data, which is essential for accurate data analysis and reporting.
 
 ## Getting Started
 
