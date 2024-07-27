@@ -7,7 +7,6 @@ from decimal import Decimal
 from contextlib import contextmanager
 from mage_ai.data_preparation.shared.secrets import get_secret_value
 
-# Configure logging
 logging.basicConfig(level=logging.INFO, format='%(asctime)s - %(levelname)s - %(message)s')
 
 if 'data_loader' not in globals():
