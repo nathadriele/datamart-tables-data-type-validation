@@ -1,0 +1,4 @@
+psycopg2-binary==2.9.3
+requests==2.25.1
+python-decouple==3.5
+mage-ai==0.8.2
