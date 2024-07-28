@@ -17,7 +17,6 @@ Ensure you have the following software installed:
 
 ```py
 git clone https://github.com/nathadriele/datamart-tables-data-type-validation.git
-cd datamart-tables-data-type-validation
 ```
 
 2. Create and activate a virtual environment:
@@ -41,11 +40,8 @@ Configure your environment variables for PostgreSQL connection details. You can 
 Execute the data validation script using:
 
 ```py
-python data_validation.py
+datamart_data_type_validation.py
 ```
-
-### Detailed Functionality
-`data_validation.py`
 
 ### Functions
 - `connect_to_postgres()`
@@ -79,6 +75,12 @@ The script uses the Python logging module for logging information, errors, and d
 
 ### Testing
 The script includes basic testing functions to ensure the data loader function works as expected.
+
+### Metadata Configuration
+The metadata.yaml file contains the configuration for the Mage.ai block used in this project. It defines the block's properties, execution type, and other settings that control how the data validation process is executed.
+
+### Trigger Configuration
+The triggers.yaml file defines the schedule and settings for triggering the data validation pipeline. It specifies the frequency (@daily), start time, and other settings necessary for automating the execution of the validation process.
 
 ### Contribution to Data Engineering
 This project plays a vital role in Data Engineering by ensuring that the data stored in PostgreSQL tables conforms to the expected data types. Data Engineers rely on accurate and reliable data to build data pipelines, perform ETL processes, and generate meaningful insights.
